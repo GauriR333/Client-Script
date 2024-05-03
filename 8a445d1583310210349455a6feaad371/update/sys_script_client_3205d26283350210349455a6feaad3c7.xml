@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>when this script is run then clear option metnod wil execute ,and this remove option form field</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>when this script is run then clear option metnod wil execute </messages>
+        <name>Clear option method</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.clearOptions('short_description');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-29 09:39:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3205d26283350210349455a6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clear option method</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Client Script " source="x_374399_client_sc">8a445d1583310210349455a6feaad371</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Client Script ">8a445d1583310210349455a6feaad371</sys_scope>
+        <sys_update_name>sys_script_client_3205d26283350210349455a6feaad3c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-29 09:39:41</sys_updated_on>
+        <table>incident</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
