@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>when this script is run then ClearValue method is run </description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>when this script is run then ClearValue method is run </messages>
+        <name>This is clear value method</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+g_form.clearValue('short_discription','');
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:07:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1de62be83394210349455a6feaad31b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>This is clear value method</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Client Script " source="x_374399_client_sc">8a445d1583310210349455a6feaad371</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Client Script ">8a445d1583310210349455a6feaad371</sys_scope>
+        <sys_update_name>sys_script_client_e1de62be83394210349455a6feaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 06:10:19</sys_updated_on>
+        <table>incident</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Client Script ">8a445d1583310210349455a6feaad371</application>
+        <file_path/>
+        <instance_id>fb6ede52db894e182f082a59139619f8</instance_id>
+        <instance_name>dev248345</instance_name>
+        <name>sys_script_client_e1de62be83394210349455a6feaad31b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;when this script is run then ClearValue method is run &lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;when this script is run then ClearValue method is run &lt;/messages&gt;&lt;name&gt;This is clear value method&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+g_form.clearValue('short_discription','');
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-30 06:07:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e1de62be83394210349455a6feaad31b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;This is clear value method&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Client Script " source="x_374399_client_sc"&gt;8a445d1583310210349455a6feaad371&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Client Script "&gt;8a445d1583310210349455a6feaad371&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e1de62be83394210349455a6feaad31b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-30 06:10:19&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1229271986</payload_hash>
+        <record_name>This is clear value method</record_name>
+        <reverted_from/>
+        <source>b0ae422e83f10210349455a6feaad336</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:10:20</sys_created_on>
+        <sys_id>27103a3a83794210349455a6feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2da021120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 06:10:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6b103a3ab0794210a6465babc5df1aa8</update_guid>
+        <update_guid_history>6b103a3ab0794210a6465babc5df1aa8:1229271986,c99feeb6d479421074814aea7ac3f138:1857219704</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 15:25:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>092035d62b4248d08f941dde63693d90</sys_id>
+        <sys_metadata>e1de62be83394210349455a6feaad31b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>This is clear value method</sys_name>
+        <sys_package display_value="Client Script " source="x_374399_client_sc">8a445d1583310210349455a6feaad371</sys_package>
+        <sys_parent display_value="Incident">d79f659a8db0021087de63ac7f1f00a4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Client Script ">8a445d1583310210349455a6feaad371</sys_scope>
+        <sys_scope_delete display_value="">5a6752dd52b941bfa457a87d074ab291</sys_scope_delete>
+        <sys_update_name>sys_script_client_e1de62be83394210349455a6feaad31b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e1de62be83394210349455a6feaad31b">27103a3a83794210349455a6feaad3a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 15:25:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

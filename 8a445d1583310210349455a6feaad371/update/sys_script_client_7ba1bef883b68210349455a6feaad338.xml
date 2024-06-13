@@ -3,34 +3,44 @@
         <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>When this script is run then addoption method is run</description>
-        <field/>
+        <description>	Set Assinged to= Pavan if category=Network.&#13;
+&#13;
+</description>
+        <field>category</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
-        <messages>When this script is run then addoption method is run</messages>
-        <name>Add option method</name>
+        <messages/>
+        <name>AssignToFieldStsndardIfCatagoryNetWork</name>
         <order/>
-        <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   g_form.addOption('subcategory','phone number','Phone Number');
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var category = g_form.getValue('category');
+    alert(category);
+    if (category == 'network') {
+        g_form.setValue('assigned_to', '81f538a583460210349455a6feaad323');
+    }
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-29 09:28:34</sys_created_on>
+        <sys_created_on>2024-06-12 18:14:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f2f296e283350210349455a6feaad39f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Add option method</sys_name>
+        <sys_id>7ba1bef883b68210349455a6feaad338</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AssignToFieldStsndardIfCatagoryNetWork</sys_name>
         <sys_overrides/>
         <sys_package display_value="Client Script " source="x_374399_client_sc">8a445d1583310210349455a6feaad371</sys_package>
         <sys_policy/>
         <sys_scope display_value="Client Script ">8a445d1583310210349455a6feaad371</sys_scope>
-        <sys_update_name>sys_script_client_f2f296e283350210349455a6feaad39f</sys_update_name>
+        <sys_update_name>sys_script_client_7ba1bef883b68210349455a6feaad338</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-11 15:27:19</sys_updated_on>
+        <sys_updated_on>2024-06-13 09:57:45</sys_updated_on>
         <table>incident</table>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>
